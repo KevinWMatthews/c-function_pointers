@@ -1,0 +1,10 @@
+remote_theme: KevinWMatthews/minima
+title: c/function_pointers
+author: Kevin W Matthews
+author_url: https://www.kevinwmatthews.com
+description:
+  Syntax for Function Pointers in C
+header_pages:
+  - setup.md
+github_username: KevinWMatthews
+linkedin_username: KevinWMatthews
