@@ -6,5 +6,6 @@ description:
   Syntax for Function Pointers in C
 header_pages:
   - setup.md
+  - examples.md
 github_username: KevinWMatthews
 linkedin_username: KevinWMatthews

@@ -3,10 +3,12 @@ layout: page
 title: Setup
 ---
 
+
 ## Prerequisites
 
   * CMake
   * C compiler (gcc, clang, etc)
+
 
 ## Setup
 
@@ -27,6 +29,7 @@ c-function_pointers/
 └── c-function_pointers/
 ```
 
+
 ## Build
 
 Build the project using:
@@ -36,7 +39,6 @@ $ cd build
 $ cmake ../c-function_pointers
 $ make
 ```
-
 
 
 ## Run
