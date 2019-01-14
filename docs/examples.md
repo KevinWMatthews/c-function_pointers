@@ -30,7 +30,7 @@ Function pointers can be passed into functions directly:
 void takes_function_pointer(int (*function_pointer)(char *))
 ```
 
-or using a typedef:
+or using a `typedef`:
 ```c
 typedef int (*FUNCTION_POINTER)(char *);
 void takes_function_pointer_typedef(FUNCTION_POINTER function_pointer)
