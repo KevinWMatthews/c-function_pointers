@@ -9,3 +9,8 @@ add_executable(standard standard.c)
 target_compile_options(standard
     PRIVATE "-Wall"
 )
+
+add_executable(typedef typedef.c)
+target_compile_options(typedef
+    PRIVATE "-Wall"
+)
