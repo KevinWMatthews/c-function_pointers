@@ -14,3 +14,8 @@ add_executable(typedef typedef.c)
 target_compile_options(typedef
     PRIVATE "-Wall"
 )
+
+add_executable(as_parameter as_parameter.c)
+target_compile_options(as_parameter
+    PRIVATE "-Wall"
+)
