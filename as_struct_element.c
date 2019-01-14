@@ -4,7 +4,7 @@ typedef void (*FUNCTION_POINTER)(void);
 
 typedef struct STRUCTURE
 {
-    void (*function_pointer)(void);     // The name of the variable is within the parenthesis
+    void (*function_pointer)(void);     // The name of the variable is within the parentheses
     FUNCTION_POINTER function_pointer_typedef;
 } STRUCTURE;
 
