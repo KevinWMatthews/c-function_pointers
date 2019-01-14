@@ -19,3 +19,8 @@ add_executable(as_parameter as_parameter.c)
 target_compile_options(as_parameter
     PRIVATE "-Wall"
 )
+
+add_executable(in_struct in_struct.c)
+target_compile_options(in_struct
+    PRIVATE "-Wall"
+)
