@@ -2,6 +2,24 @@
 
 Syntax refresher for function pointers in C.
 
+## Background
+
+This is a stepwise reminder about function pointer syntax.
+Each example application demonstrates a subset of language mechanics
+or illustrates a use-case.
+
+## Project Structure
+
+For simplicity, all four source files live in the project's root directory:
+```
+c-function_pointers/
+├── as_parameter.c
+├── basic_syntax.c
+├── in_struct.c
+└── typedef.c
+```
+
+
 ## Prerequisites
 
   * CMake
