@@ -10,17 +10,17 @@ target_compile_options(basic_syntax
     PRIVATE "-Wall"
 )
 
-add_executable(typedef typedef.c)
-target_compile_options(typedef
+add_executable(typedef_syntax typedef_syntax.c)
+target_compile_options(typedef_syntax
     PRIVATE "-Wall"
 )
 
-add_executable(as_parameter as_parameter.c)
-target_compile_options(as_parameter
+add_executable(as_function_parameter as_function_parameter.c)
+target_compile_options(as_function_parameter
     PRIVATE "-Wall"
 )
 
-add_executable(in_struct in_struct.c)
-target_compile_options(in_struct
+add_executable(as_struct_element as_struct_element.c)
+target_compile_options(as_struct_element
     PRIVATE "-Wall"
 )

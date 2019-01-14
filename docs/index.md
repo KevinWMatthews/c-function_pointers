@@ -24,6 +24,6 @@ c-function_pointers/
 ```
 
 
-## Build and Run
+## Getting Started
 
 See [Setup](setup.md).
