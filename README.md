@@ -43,7 +43,7 @@ Executables are located in the `bin/` directory.
 
 The executables can be run directly:
 ```bash
-$ ./bin/standard
+$ ./bin/basic_syntax
 $ ./bin/typedef
 $ ./bin/as_parameter
 $ ./bin/in_struct
