@@ -10,4 +10,4 @@ or illustrates a use-case.
 
 ## Getting Started
 
-See the [documentation](https://kevinwmatthews.github.io/c-function_pointers/) for details.
+See the [documentation](https://kevinwmatthews.github.io/c-function_pointers/setup.html) for details.
