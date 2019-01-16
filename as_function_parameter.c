@@ -1,19 +1,10 @@
 #include <stdio.h>
 
-typedef void (*FUNCTION_POINTER)(void);
-
 void accepts_function_pointer(void (*function_pointer)(void))
 {
     if (function_pointer)
         function_pointer();
 }
-
-void accepts_function_pointer_typedef(FUNCTION_POINTER function_pointer)
-{
-    if (function_pointer)
-        function_pointer();
-}
-
 
 void function(void)
 {
@@ -23,7 +14,9 @@ void function(void)
 int main(void)
 {
     accepts_function_pointer(function);
-    accepts_function_pointer_typedef(function);
+
+    void (*variable)(void) = function;
+    accepts_function_pointer(variable);
 
     return 0;
 }

@@ -20,6 +20,11 @@ target_compile_options(as_function_parameter
     PRIVATE "-Wall"
 )
 
+add_executable(as_function_parameter_typedef as_function_parameter_typedef.c)
+target_compile_options(as_function_parameter_typedef
+    PRIVATE "-Wall"
+)
+
 add_executable(as_struct_element as_struct_element.c)
 target_compile_options(as_struct_element
     PRIVATE "-Wall"
