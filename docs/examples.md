@@ -44,7 +44,7 @@ typedef int (*FUNCTION_POINTER)(char);
 void takes_function_pointer_typedef(FUNCTION_POINTER function_pointer)
 ```
 
-See [as_function_parameter.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter_typedef.c)
+See [as_function_parameter_typedef.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter_typedef.c)
 
 
 ## As Struct Element
