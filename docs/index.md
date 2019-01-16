@@ -17,10 +17,11 @@ to execute generic behavior without needing to know its implementation details.
 For simplicity, all four source files live in the project's root directory:
 ```
 c-function_pointers/
-├── as_parameter.c
+├── as_function_parameter_typedef.c
+├── as_function_parameter.c
+├── as_struct_element.c
 ├── basic_syntax.c
-├── in_struct.c
-└── typedef.c
+└── typedef_syntax.c
 ```
 
 

@@ -46,8 +46,5 @@ $ make
 Executables are located in the `bin/` directory and can be run directly:
 
 ```bash
-$ ./bin/basic_syntax
-$ ./bin/typedef
-$ ./bin/as_parameter
-$ ./bin/in_struct
+$ ./bin/<executable_name>
 ```
