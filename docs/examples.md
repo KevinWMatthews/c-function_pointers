@@ -49,15 +49,28 @@ See [as_function_parameter_typedef.c](https://github.com/KevinWMatthews/c-functi
 
 ## As Struct Element
 
-Structures can hold function pointers and/or `typedef`s:
+Structures can hold function pointers directly:
+
+```c
+struct
+{
+    int (*function_pointer)(char);
+}
+```
+
+See [as_struct_element.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_struct_element.c)
+
+
+## As Struct Element with Typedef
+
+Structures can also store custom types that are function pointers:
 
 ```c
 typedef int (*FUNCTION_POINTER)(char);
 struct
 {
-  int (*function_pointer)(char);
-  FUNCTION_POINTER function_pointer_typedef;
+    FUNCTION_POINTER function_pointer;
 }
 ```
 
-See [as_struct_element.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_struct_element.c)
+See [as_struct_element_typedef.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_struct_element_typedef.c)

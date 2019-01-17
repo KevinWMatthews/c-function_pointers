@@ -14,15 +14,18 @@ to execute generic behavior without needing to know its implementation details.
 
 ## Project Structure
 
-For simplicity, all four source files live in the project's root directory:
+For simplicity, all examples are in the project's root directory:
 ```
 c-function_pointers/
 ├── as_function_parameter_typedef.c
 ├── as_function_parameter.c
 ├── as_struct_element.c
+├── as_struct_element_typedef.c
 ├── basic_syntax.c
 └── typedef_syntax.c
 ```
+
+Each file is a self-contained, complete example.
 
 
 ## Getting Started
