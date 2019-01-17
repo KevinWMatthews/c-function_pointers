@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+typedef void (*FUNCTION_POINTER)(void);
+
 typedef struct STRUCTURE
 {
-    // The name of the variable is within the parentheses
-    void (*function_pointer)(void);
+    FUNCTION_POINTER function_pointer;
 } STRUCTURE;
 
 void function(void)

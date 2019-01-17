@@ -29,3 +29,8 @@ add_executable(as_struct_element as_struct_element.c)
 target_compile_options(as_struct_element
     PRIVATE "-Wall"
 )
+
+add_executable(as_struct_element_typedef as_struct_element_typedef.c)
+target_compile_options(as_struct_element_typedef
+    PRIVATE "-Wall"
+)
