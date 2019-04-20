@@ -36,15 +36,26 @@ void takes_function_pointer(int (*function_pointer)(char))
 See [as_function_parameter.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter.c)
 
 
-## As Function Parameter with Typedef
+## As Function Parameter using Typedef
 
 Function pointers can be passed into a function using a custom type:
+```c
+typedef void (*FUNCTION_POINTER)(void);
+void takes_function_pointer_typedef(FUNCTION_POINTER function_pointer)
+```
+
+See [as_function_parameter_typedef.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter_typedef.c)
+
+
+## As Function Parameter using Typedef, with Arguments
+
+Function pointers can accept non-void arguments:
 ```c
 typedef int (*FUNCTION_POINTER)(char);
 void takes_function_pointer_typedef(FUNCTION_POINTER function_pointer)
 ```
 
-See [as_function_parameter_typedef.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter_typedef.c)
+See [as_function_parameter_typedef_args.c](https://github.com/KevinWMatthews/c-function_pointers/blob/master/as_function_parameter_typedef_args.c)
 
 
 ## As Struct Element
