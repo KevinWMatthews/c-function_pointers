@@ -2,23 +2,23 @@
 
 typedef void (*FUNCTION_POINTER)(void);
 
-void accepts_function_pointer_typedef(FUNCTION_POINTER function_pointer)
+void calls_function_pointer(FUNCTION_POINTER function_pointer)
 {
     if (function_pointer)
         function_pointer();
 }
 
-void function(void)
+void pass_this_function(void)
 {
     printf("Executing %s\n", __func__);
 }
 
 int main(void)
 {
-    accepts_function_pointer_typedef(function);
+    calls_function_pointer(pass_this_function);
 
-    FUNCTION_POINTER variable = function;
-    accepts_function_pointer_typedef(variable);
+    FUNCTION_POINTER variable = pass_this_function;
+    calls_function_pointer(variable);
 
     return 0;
 }

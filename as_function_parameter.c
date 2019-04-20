@@ -1,22 +1,22 @@
 #include <stdio.h>
 
-void accepts_function_pointer(void (*function_pointer)(void))
+void calls_function_pointer(void (*function_pointer)(void))
 {
     if (function_pointer)
         function_pointer();
 }
 
-void function(void)
+void pass_this_function(void)
 {
     printf("Executing %s\n", __func__);
 }
 
 int main(void)
 {
-    accepts_function_pointer(function);
+    calls_function_pointer(pass_this_function);
 
-    void (*variable)(void) = function;
-    accepts_function_pointer(variable);
+    void (*variable)(void) = pass_this_function;
+    calls_function_pointer(variable);
 
     return 0;
 }
