@@ -15,13 +15,12 @@ int pass_this_function(char *string)
 void calls_function_pointer(int (*function_pointer)(char *))
 {
     char *string = "Hello, World!";
-    int retval = 0;
 
-    // Be sure to guard against executing a NULL pointer
     if (function_pointer)
-        retval = function_pointer(string);
-
-    printf("%s: Function returned value '%d'\n", __func__, retval);
+    {
+        int retval = function_pointer(string);
+        printf("%s: Function returned value '%d'\n", __func__, retval);
+    }
 }
 
 int main(void)

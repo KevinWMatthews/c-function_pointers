@@ -15,8 +15,6 @@ add_executable(as_function_parameter as_function_parameter.c)
 
 add_executable(as_function_parameter_typedef as_function_parameter_typedef.c)
 
-add_executable(as_function_parameter_typedef_args as_function_parameter_typedef_args.c)
-
 add_executable(as_struct_element as_struct_element.c)
 
 add_executable(as_struct_element_typedef as_struct_element_typedef.c)
