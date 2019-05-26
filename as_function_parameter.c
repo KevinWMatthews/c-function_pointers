@@ -1,21 +1,36 @@
 #include <stdio.h>
 
-void calls_function_pointer(void (*function_pointer)(void))
+int pass_this_function(char *string)
 {
-    if (function_pointer)
-        function_pointer();
+    if (!string)
+    {
+        printf("%s: Function passed a NULL string\n", __func__);
+        return -1;
+    }
+
+    printf("%s: Function passed argument '%s'\n", __func__, string);
+    return 0;
 }
 
-void pass_this_function(void)
+void calls_function_pointer(int (*function_pointer)(char *))
 {
-    printf("Executing %s\n", __func__);
+    char *string = "Hello, World!";
+    int retval = 0;
+
+    // Be sure to guard against executing a NULL pointer
+    if (function_pointer)
+        retval = function_pointer(string);
+
+    printf("%s: Function returned value '%d'\n", __func__, retval);
 }
 
 int main(void)
 {
+    printf("\tPass function directly:\n");
     calls_function_pointer(pass_this_function);
 
-    void (*variable)(void) = pass_this_function;
+    printf("\n\tPass function using variable:\n");
+    int (*variable)(char *) = pass_this_function;
     calls_function_pointer(variable);
 
     return 0;
