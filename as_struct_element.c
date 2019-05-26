@@ -2,7 +2,7 @@
 
 typedef struct STRUCTURE
 {
-    // The name of the variable is within the parentheses
+    // The name of the struct element is within the parentheses
     int (*function_pointer)(char *);
 } STRUCTURE;
 
