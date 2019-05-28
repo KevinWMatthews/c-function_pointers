@@ -1,0 +1,2 @@
+add_executable(function_parameter_typedef function_parameter_typedef.c)
+add_executable(function_parameter_typedef2 function_parameter_typedef2.c)

@@ -1,0 +1,2 @@
+add_executable(function_parameter function_parameter.c)
+add_executable(function_parameter2 function_parameter2.c)

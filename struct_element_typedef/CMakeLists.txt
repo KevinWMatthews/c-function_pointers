@@ -1,0 +1,2 @@
+add_executable(struct_element_typedef struct_element_typedef.c)
+add_executable(struct_element_typedef2 struct_element_typedef2.c)
