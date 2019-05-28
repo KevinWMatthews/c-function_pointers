@@ -13,7 +13,8 @@ add_executable(basic_syntax2 basic_syntax/basic_syntax2.c)
 add_executable(typedef_syntax typedef_syntax/typedef_syntax.c)
 add_executable(typedef_syntax2 typedef_syntax/typedef_syntax2.c)
 
-add_executable(as_function_parameter as_function_parameter.c)
+add_executable(function_parameter function_parameter/function_parameter.c)
+add_executable(function_parameter2 function_parameter/function_parameter2.c)
 
 add_executable(as_function_parameter_typedef as_function_parameter_typedef.c)
 
