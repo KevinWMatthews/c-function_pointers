@@ -22,4 +22,5 @@ add_executable(function_parameter_typedef2 function_parameter_typedef/function_p
 add_executable(struct_element struct_element/struct_element.c)
 add_executable(struct_element2 struct_element/struct_element2.c)
 
-add_executable(as_struct_element_typedef as_struct_element_typedef.c)
+add_executable(struct_element_typedef struct_element_typedef/struct_element_typedef.c)
+add_executable(struct_element_typedef2 struct_element_typedef/struct_element_typedef2.c)
