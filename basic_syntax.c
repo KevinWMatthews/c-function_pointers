@@ -1,24 +1,14 @@
 #include <stdio.h>
 
-int function(char *string)
+void function(void)
 {
-    if (!string)
-    {
-        printf("%s: Function passed a NULL string\n", __func__);
-        return -1;
-    }
-
-    printf("%s: Function passed argument '%s'\n", __func__, string);
-    return 0;
+    printf("Executing %s\n", __func__);
 }
 
 int main(void)
 {
-    int (*function_pointer)(char *) = function;
-
-    char *string = "Hello, world!";
-    int retval = function_pointer(string);
-    printf("%s: Function returned value '%d'\n", __func__, retval);
+    void (*function_pointer)(void) = function;
+    function_pointer();
 
     return 0;
 }
