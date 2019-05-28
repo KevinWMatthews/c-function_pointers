@@ -7,11 +7,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 
 add_compile_options("-Wall")
 
-add_executable(basic_syntax basic_syntax/basic_syntax.c)
-add_executable(basic_syntax2 basic_syntax/basic_syntax2.c)
+add_executable(syntax syntax/syntax.c)
+add_executable(syntax2 syntax/syntax2.c)
 
-add_executable(typedef_syntax typedef_syntax/typedef_syntax.c)
-add_executable(typedef_syntax2 typedef_syntax/typedef_syntax2.c)
+add_executable(syntax_typedef syntax_typedef/syntax_typedef.c)
+add_executable(syntax_typedef2 syntax_typedef/syntax_typedef2.c)
 
 add_executable(function_parameter function_parameter/function_parameter.c)
 add_executable(function_parameter2 function_parameter/function_parameter2.c)
