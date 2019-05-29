@@ -4,10 +4,9 @@ Syntax refresher for function pointers in C.
 
 ## Background
 
-This is a reintroduction to function pointer syntax.
-Each example application demonstrates a subset of language mechanics
-or illustrates a use-case.
+Supporting content for a series of [blog posts](https://blog.kevinwmatthews.com/tags/#function-pointers).
+See the [documentation](https://kevinwmatthews.github.io/c-function_pointers/) for details.
 
 ## Getting Started
 
-See the [documentation](https://kevinwmatthews.github.io/c-function_pointers/setup.html) for details.
+See the [setup documentation](https://kevinwmatthews.github.io/c-function_pointers/setup.html) for details.
