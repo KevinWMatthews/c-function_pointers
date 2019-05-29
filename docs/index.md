@@ -14,18 +14,18 @@ to execute generic behavior without needing to know its implementation details.
 
 ## Project Structure
 
-For simplicity, all examples are in the project's root directory:
+Examples are grouped in directories:
 ```
 c-function_pointers/
-├── function_parameter/
-├── function_parameter_typedef/
-├── struct_element/
-├── struct_element_typedef/
-├── syntax/
-└── syntax_typedef/
+├── 1_syntax/
+├── 2_syntax_typedef/
+├── 3_function_parameter/
+├── 4_function_parameter_typedef/
+├── 5_struct_element/
+└── 6_struct_element_typedef/
 ```
 
-Each directory holds several self-contained, complete examples.
+Each directory holds several self-contained programs.
 
 
 ## Getting Started
